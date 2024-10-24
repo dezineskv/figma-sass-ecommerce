@@ -2,6 +2,8 @@ import { React } from 'react';
 import './app.scss';
 import { Route, Routes } from "react-router-dom";
 import Home from './components/Home';
+import ShopItems from './components/ShopItems';
+import Item from './components/Item';
 
 function App() {
 
@@ -9,6 +11,8 @@ function App() {
 <>
 <Routes>
     <Route path="/" element={<Home></Home>}></Route>
+    <Route path="/shop" element={<ShopItems></ShopItems>}></Route>
+    <Route path="/item" element={<Item></Item>}></Route>
       </Routes> 
       </>    
   )

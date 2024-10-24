@@ -1,4 +1,5 @@
 import { React } from 'react';
+import { Link } from 'react-router-dom';
 
 function Latest() {
 
@@ -18,7 +19,7 @@ function Latest() {
                                                 <p><img src="/latest/arrow.png" className='arrow' alt="arrow"/></p>
                                                     <div className="two-col">
                                                         <div className="btn-l pt-20">
-                                                            <button className="btn-primary-l" type="button">Shop Now</button>
+                                                            <Link to="/shop"><button className="btn-primary-l" type="button">Shop Now</button></Link>
                                                         </div>                              
                                                     </div>
                                         </div>                                   
@@ -36,7 +37,7 @@ function Latest() {
                                                 <p><img src="/latest/arrow.png" className='arrow' alt="arrow"/></p>
                                                     <div className="two-col">
                                                         <div className="btn-l pt-20">
-                                                            <button className="btn-primary-l" type="button">Shop Now</button>
+                                                        <Link to="/shop"><button className="btn-primary-l" type="button">Shop Now</button></Link>
                                                         </div>                              
                                                     </div>
                                         </div>                                  
@@ -54,7 +55,7 @@ function Latest() {
                                                 <p><img src="/latest/arrow.png" className='arrow' alt="arrow"/></p>
                                                     <div className="two-col">
                                                         <div className="btn-l pt-20">
-                                                            <button className="btn-primary-l" type="button">Shop Now</button>
+                                                        <Link to="/shop"><button className="btn-primary-l" type="button">Shop Now</button></Link>
                                                         </div>                              
                                                     </div>
                                         </div>                                   
@@ -75,7 +76,7 @@ function Latest() {
                                     <p className="cont-width"><img src="/latest/arrow-b.png" className='arrow' alt="arrow"/></p>
                                     <div className="two-col">
                                             <div className="btn-l pt-20">
-                                                <button className="btn-primary-lb" type="button">Shop Now</button>
+                                            <Link to="/shop"><button className="btn-primary-lb" type="button">Shop Now</button></Link>
                                             </div>                              
                                     </div>
                             </div>                                    
@@ -93,7 +94,7 @@ function Latest() {
                                     <p className="cont-width"><img src="/latest/arrow-b.png" className='arrow' alt="arrow"/></p>
                                     <div className="two-col">
                                             <div className="btn-l pt-20">
-                                                <button className="btn-primary-lb" type="button">Shop Now</button>
+                                            <Link to="/shop"><button className="btn-primary-lb" type="button">Shop Now</button></Link>
                                             </div>                              
                                     </div>
                                 </div>                                   

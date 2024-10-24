@@ -1,4 +1,5 @@
 import { React } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
 
@@ -13,7 +14,7 @@ export default function Hero() {
                     <h4 className="hero-header primary-heading-h">Shop with Confidence: Trusted Source for Quality Products</h4>
                     <p className="hero-text be-vietnam-pro-165-h">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
                     <div className="btn-h">
-                        <button className="btn-primary-o" type="button">Shop Now</button>
+                        <Link to="/shop"><button className="btn-primary-o" type="button">Shop Now</button></Link>
                     </div>
                     <div className="cards-h " style={{display: 'flex', justifyContent: 'space-between'}}>
                             <div className="inner" style={{paddingRight: '20px', borderRight:'1px solid gray'}}>

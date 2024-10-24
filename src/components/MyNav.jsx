@@ -22,12 +22,12 @@ function MyNav() {
     </button>
     {isOpen && (
       <ul className="drop-items" style={{borderRadius: '6px'}}>
-          <li className="dropdown-item drop-section"><Link to="/"><img src="/dropdown/elect.png" alt="icons" className="drop-icons" /><div className="drop-text">Electronics Devices</div></Link></li>
-          <li className="dropdown-item drop-section"><Link to="/"><img src="/dropdown/elect.png" alt="icons" className="drop-icons" /><div className="drop-text">Electronics Devices</div></Link></li>
-          <li className="dropdown-item drop-section"><Link to="/"><img src="/dropdown/elect.png" alt="icons" className="drop-icons" /><div className="drop-text">Electronics Devices</div></Link></li>
-          <li className="dropdown-item drop-section"><Link to="/"><img src="/dropdown/elect.png" alt="icons" className="drop-icons" /><div className="drop-text">Electronics Devices</div></Link></li>
-          <li className="dropdown-item drop-section"><Link to="/"><img src="/dropdown/elect.png" alt="icons" className="drop-icons" /><div className="drop-text">Electronics Devices</div></Link></li>
-                            
+          <li className="dropdown-item drop-section"><Link to="/shop"><img src="/dropdown/elect.png" alt="icons" className="drop-icons" /><div className="drop-text">Electronics Devices</div></Link></li>
+          <li className="dropdown-item drop-section"><Link to="/shop"><img src="/dropdown/tv.png" alt="icons" className="drop-icons" /><div className="drop-text">TV & Home Appliances</div></Link></li>
+          <li className="dropdown-item drop-section"><Link to="/shop"><img src="/dropdown/health.png" alt="icons" className="drop-icons" /><div className="drop-text">Health & Beauty</div></Link></li>
+
+          <li className="dropdown-item drop-section"><Link to="/shop"><img src="/dropdown/baby.png" alt="icons" className="drop-icons" /><div className="drop-text">Babies & Toys</div></Link></li><li className="dropdown-item drop-section"><Link to="/shop"><img src="/dropdown/pet.png" alt="icons" className="drop-icons" /><div className="drop-text">Groceries & Pets</div></Link></li><li className="dropdown-item drop-section"><Link to="/shop"><img src="/dropdown/home.png" alt="icons" className="drop-icons" /><div className="drop-text">Home & Lifestyle</div></Link></li>
+          <li className="dropdown-item drop-section"><Link to="/shop"><img src="/dropdown/women.png" alt="icons" className="drop-icons" /><div className="drop-text">Women's Fashion</div></Link></li><li className="dropdown-item drop-section"><Link to="/shop"><img src="/dropdown/men.png" alt="icons" className="drop-icons" /><div className="drop-text">Men's Fashion</div></Link></li><li className="dropdown-item drop-section"><Link to="/shop"><img src="/dropdown/watches.png" alt="icons" className="drop-icons" /><div className="drop-text">Watches & Accessories</div></Link></li><li className="dropdown-item drop-section"><Link to="/shop"><img src="/dropdown/sports.png" alt="icons" className="drop-icons" /><div className="drop-text">Sports & Outdoors</div></Link></li>                                            
               </ul>
     )}
   </div>
@@ -43,7 +43,7 @@ function MyNav() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0" style={{display: 'flex', justifyContent: 'space-between', listStyle: 'none', width: '200px'}}>
             <li className="nav-item">
-              <span className="nav-link active" aria-current="page"><Link to="/">Home</Link></span>
+              <span className="nav-link active" aria-current="page"><Link to="/shop">Home</Link></span>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Link</a>
