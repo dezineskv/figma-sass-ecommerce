@@ -1,0 +1,262 @@
+@use '../scss/variables';
+@use '../scss/mixins';
+
+.outer-latest {
+    padding-bottom: 60px;
+    background-color: $secondary-color;
+    
+    .cards-latest {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: $max1440;
+      margin: 0 auto; 
+      column-gap: 30px;
+      padding: 0;
+
+          .img-top-left-latest {
+            background-image: url('/latest/joggers.png');
+            object-fit: cover;
+            width: 450px;
+            height: 390px;
+            border-radius: 8px;
+            text-align: left;
+            position: relative;    
+          }
+          .img-top-middle-latest {
+            background-image: url('/latest/hoody.png');
+            object-fit: cover;
+            width: 450px;
+            height: 390px;
+            border-radius: 8px;
+            text-align: left;
+            position: relative;    
+          }
+          .img-top-right-latest {
+            background-image: url('/latest/hawaiian.png');
+            object-fit: cover;
+            width: 450px;
+            height: 390px;
+            border-radius: 8px;
+            text-align: left;
+            position: relative;    
+          }
+          .absolute-top-latest {
+            position: absolute;
+            top: 80px;
+            left: 30px;
+          }
+        
+          .heart-t {
+            width: 32px;
+            position: absolute;
+            left: 330px;
+            z-index: 1;
+            top: -40px;
+          }
+          .tag-t {
+            width: 132px;
+            position: relative;
+            left: 120px;
+            z-index: 1;
+            top: 0px;
+          }
+
+          .img-bottom-left-latest {
+            max-width: 690px;
+            width: 100%;
+            height: 390px;
+            background-image: url('/latest/urbanShirts.png');
+            object-fit: cover;
+            border-radius: 8px;
+            text-align: left;
+            position: relative;
+
+            .cont-width {
+              width: 100%;
+              max-width: 260px;
+            }
+          }
+            .absolute-bottom-l-latest {
+              position: absolute;
+              top: 70px;
+              left: 430px;
+
+              @include smMaxBreakPoint {
+                position: absolute;
+                top: 80px;
+                left: 90px !important;              
+                }
+
+              .heart-l-t {
+                width: 32px;
+                position: absolute;
+                left: 200px;
+                z-index: 1;
+                top: -40px;
+              }
+
+              @include smMaxBreakPoint {
+                margin: 0 auto;
+                text-align: center;
+                width: 300px;
+                max-width: 70% !important;
+                justify-content: center;                 
+                }
+        
+        
+          }
+          .img-bottom-right-latest {
+            max-width: 690px;
+            width: 100%;
+            height: 390px;
+            background-image: url('/latest/urbanShirts.png');
+            object-fit: cover;
+            border-radius: 8px;
+            text-align: left;
+            position: relative;
+
+            .cont-width {
+              width: 100%;
+              max-width: 260px;
+            }
+          }
+            .absolute-bottom-r-latest {
+              position: absolute;
+              top: 70px;
+              left: 430px;
+
+              @include smMaxBreakPoint {
+                position: absolute;
+                top: 80px;
+                left: 90px !important;              
+                }
+
+              .heart-r-b {
+                width: 32px;
+                position: absolute;
+                left: 200px;
+                z-index: 1;
+                top: -40px;
+              }
+
+              @include smMaxBreakPoint {
+                margin: 0 auto;
+                text-align: center;
+                width: 300px;
+                max-width: 70% !important;
+                justify-content: center;                 
+                }
+        
+        
+          }
+        
+        }
+          .tag-b {
+            width: 132px;
+            position: relative;
+            left: 240px;
+            z-index: 1;
+            top: 0px;
+          }
+          .two-col {
+            display: flex;
+          }
+         
+      }    
+
+
+h2 {
+    text-align: center;
+    padding: 50px 0; 
+    margin: 0 auto;
+}
+
+
+.be-vietnam-pro-hl {
+   font-family: $vietnam-pro;
+    font-weight: $weight7;
+    font-style: normal;
+    font-size: $p24;
+    line-height: $line28;
+    text-align: left;
+    color: $primary-color;
+  }
+
+
+  .be-vietnam-pro-sl {
+   font-family: $vietnam-pro;
+    font-weight: $weight6;
+    font-style: normal;
+    font-size: $p18;
+    line-height: $line28;
+    text-align: left;
+    color: $primary-color;
+  }
+
+
+.btn-primary {
+    background: #355BFB;
+}
+.btn-primary-l {
+    background-color: transparent;
+    border-radius: 8px;
+    width: 155px;
+    height: 48px;
+    border: 1px solid $secondary-color
+  }
+
+
+.be-vietnam-pro-hlb {
+   font-family: $vietnam-pro;
+    font-weight: $weight7;
+    font-style: normal;
+    font-size: $p24;
+    line-height: $line28;
+    text-align: left;
+    color: $black;
+  }
+
+  .be-vietnam-pro-slb {
+   font-family: $vietnam-pro;
+    font-weight: $weight6;
+    font-style: normal;
+    font-size: $p18;
+    line-height: $line28;
+    text-align: left;
+    color: $black;
+  }
+
+  .btn-primary-lb {
+    background-color: transparent;
+    border-radius: 8px;
+    width: 155px;
+    height: 48px;
+    color: $black;
+    border: 1px solid $black;
+  }
+
+  .arrow {
+    position: relative;
+    left: 68px;
+ 
+    @include xxlMinBreakPoint {
+      position: relative;
+      left: -8px;
+  
+      }
+  }
+
+  .heart-t {
+    width: 32px;
+    position: absolute;
+    left: 200px;
+    z-index: 1;
+    top: -40px;
+
+    @include xxlMinBreakPoint {
+      position: relative;
+      left: 270px !important;
+  
+      }
+  
+  }

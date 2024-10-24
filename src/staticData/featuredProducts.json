@@ -1,0 +1,50 @@
+{
+    "features": [
+        
+    {
+      "id": 1,
+      "name": "T-shirt with Tape Details",
+      "price": 225.0,
+      "original_price": 300.0,
+      "discount": "25% off",
+      "rating": 4.9,
+      "image": "/featured/t-shirt.png"
+    },
+    {
+      "id": 2,
+      "name": "Latest Mini-split systems",
+      "price": 225.0,
+      "original_price": 300.0,
+      "discount": "25% off",
+      "rating": 4.9,
+      "image": "/featured/ac.png"
+    },
+    {
+      "id": 3,
+      "name": "Jeans",
+      "price": 225.0,
+      "original_price": null,
+      "discount": null,
+      "rating": 4.9,
+      "image": "/featured/jeans.png"
+    },
+    {
+      "id": 4,
+      "name": "12FT PVC Decorative Line",
+      "price": 225.0,
+      "original_price": 300.0,
+      "discount": "25% off",
+      "rating": 4.9,
+      "image": "/featured/remote.png"
+    },
+    {
+      "id": 5,
+      "name": "Single Zone Mini-split systems",
+      "price": 225.0,
+      "original_price": 300.0,
+      "discount": "25% off",
+      "rating": 4.9,
+      "image": "/featured/ac-white.png"
+    }
+  ]
+}

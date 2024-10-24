@@ -1,0 +1,125 @@
+@use '../scss/variables';
+@use '../scss/mixins';
+
+.outer {
+    background-color: $primary-color;
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+        max-width: $max1440;
+        margin: 0 auto; 
+        justify-content: space-between;
+        column-gap: 30px;
+        padding: 20px 0 0px 0px;
+
+      
+
+        @include xxlMinBreakPoint {
+            margin: 0 auto;
+            text-align: center;
+            max-width: 90% !important;
+            justify-content: center;
+        
+            }
+            @include xxlMaxBreakPoint {
+            margin: 0 auto;
+            text-align: left;
+            }
+           }
+       
+}
+
+h2 {
+    text-align: center;
+    padding: 50px 0; 
+    margin: 0 auto;
+}
+.card-t {
+    max-width: 336px;
+    width: 100%;
+
+    .tag-t {
+      width: 86px;
+      left: 130px;
+      z-index: 1;
+      top: -290px;
+    }
+    @include xxlMinBreakPoint {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 80% !important;
+        justify-content: center;
+    
+        }
+        @include xxlMaxBreakPoint {
+        margin: 0 auto;
+        text-align: center;
+        }
+       
+}
+.card-bg-t {
+    background-color: $cards-bg;
+    width: 336px;
+    margin: 0 auto;
+}
+.card-height {
+    height: 100%;
+}
+
+.be-vietnam-pro-ht {
+   font-family: $vietnam-pro;
+
+    font-weight: $weight6;
+    font-style: normal;
+    font-size: $p24;
+    line-height: $line28;
+    text-align: left;
+    color: $primary-color;
+  }
+
+  .be-vietnam-pro-t {
+   font-family: $vietnam-pro;
+    font-weight: $weight5;
+    font-style: normal;
+    font-size: $p16;
+    line-height: $line24;
+    text-align: left;
+    color: $primary-color;
+  }
+
+  .two-col {
+    display: flex;
+
+    .price {
+       font-family: $vietnam-pro;
+
+        font-weight: $weight6;
+        font-style: normal;
+        font-size: $p20;
+        line-height: $line30;
+        text-align: left;
+        color: $primary-color;
+      }
+
+      .presale {
+       font-family: $vietnam-pro;
+
+        font-weight: $weight4;
+        font-style: normal;
+        font-size: $p14;
+        line-height: $line28;
+        text-align: left;
+        color: $presale-color;
+        text-decoration: line-through;
+        padding-left: 10px;
+      }
+  }
+.btn-primary {
+    background: #355BFB;
+}
+
+.card-img-trending {
+    width: 336px;
+    height: 331px;
+}

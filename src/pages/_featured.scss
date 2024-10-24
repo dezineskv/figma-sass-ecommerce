@@ -1,0 +1,128 @@
+@use '../scss/variables';
+@use '../scss/mixins';
+
+.outer-featured {
+    background-color: $primary-color;
+    padding-bottom: 60px;
+
+    .cards-featured {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: $max1440;
+      margin: 0 auto; 
+      column-gap: 30px;
+
+      @include smMinBreakPoint {
+        width: 80%;
+        margin: 0 auto;
+    }
+  
+        .carousel-inner {
+          background-color: $primary-color;
+
+          .card-bg-f {
+            height: 140px;
+            background-color: $secondary-color;
+
+          .card-img-featured {
+            width: 260px;
+            height: 280px;
+            text-align: left;
+            background-color: $secondary-color;
+
+            @include mdMaxBreakPoint {
+                width: 80%;
+                height: 200px;
+            }
+
+          .card-img-f { 
+            width: 178px;
+            height: 133px;
+            position: relative;
+            padding-top: 1rem;
+            padding-left: 4.5rem;
+          }
+         
+          .heart-f {
+            width: 32px;
+            position: absolute;
+            top: 7px;
+            left: 20px;
+            z-index: 1;
+          }
+          .tag-f {
+            width: 110px;
+            position: absolute;
+            left: 167px;
+            z-index: 1;
+            top: 20px;
+          }
+
+        }              
+               
+        }     
+    }
+    }
+}      
+
+ .card-bg-f-b {
+        background-color: $secondary-color;
+        padding: 20px;
+      }
+      .two-col {
+        display: flex;
+     
+          }
+h2 {
+    text-align: center;
+    padding: 50px 0; 
+    margin: 0 auto;
+}
+
+  .be-vietnam-pro-f {
+    font-family: $vietnam-pro;
+
+    font-weight: $weight5;
+    font-style: normal;
+    font-size: $p14;
+    line-height: $line18;
+    text-align: left;
+    color: $black;
+  }
+
+
+  .three-col {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #00000034;
+    padding-top: 20px;
+
+      .presale-f {
+        font-family: $vietnam-pro;
+
+        font-weight: $weight5;
+        font-style: normal;
+        font-size: $p14;
+        line-height: 28px;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.6);
+        text-decoration: line-through;
+        padding-left: 10px;
+      }
+
+      .rating-f {
+        font-family: $vietnam-pro;
+
+        font-weight: $weight5;
+        font-style: normal;
+        font-size: $p14;
+        line-height: 28px;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.6);
+        padding-left: 30px;
+      }
+
+  }
+.star {
+    padding-right: 4px;
+}

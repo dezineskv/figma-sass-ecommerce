@@ -1,0 +1,131 @@
+@use '../scss/variables';
+@use '../scss/mixins';
+
+.outer3 {
+    background-color: $primary-color;
+
+    .cards {
+        max-width: $max1440;
+        margin: 0 auto; 
+        column-gap: 50px;
+        padding: 60px 0 0px 0;
+
+      .headline {
+       font-family: $vietnam-pro;
+
+        font-weight: 700;
+        font-style: normal;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: left;
+
+        @include smMaxBreakPoint {
+          font-size: 20px;  
+          }
+      }
+       
+
+        @include xxlMinBreakPoint {
+          min-width: 100%;
+          margin: 0 auto;
+          text-align: center;
+          max-width: 100%;
+          justify-content: center;     
+          }
+
+          @include xxlMaxBreakPoint {
+          margin: 0 auto;
+          text-align: left;
+          }
+
+        .inner-1 {
+          width: 420px;
+          height: 150px;
+          border-radius: 12px;
+          display: flex;
+          background-color: $card-yellow;   
+          margin-bottom: 30px;  
+          align-items: center; 
+
+          .card-l3 {
+            padding: 16px;
+            max-height: 130px;
+            margin: 20px 0 20px 20px;
+            width: 100%;
+            max-width: 130px;   
+            position: relative;
+
+            .img-icons {
+              width:170px;
+              height: 170px;
+              position: absolute;
+              top: -64px;
+              left: -27px;
+            }
+          }
+          .card-r {
+            padding: 16px;
+          }
+         }
+         .inner-2 {
+            width: 420px;
+            height: 150px;
+            border-radius: 12px;
+            display: flex;
+            background-color: $card-pink;
+            margin-bottom: 30px; 
+            align-items: center;  
+
+            .card-l3 {
+              padding: 16px;
+              max-height: 130px;
+              margin: 20px 0 20px 20px;
+              width: 100%;
+              max-width: 130px;   
+              position: relative;   
+            
+              .img-icons {
+                width:170px;
+                height: 170px;
+                position: absolute;
+                top: -64px;
+                left: -27px;
+              }
+            }
+              .card-r {
+                padding: 16px;
+                         }
+           }
+           .inner-3 {
+            width: 420px;
+            height: 150px;
+            border-radius: 12px;
+            display: flex;
+            background-color: $card-lavender;
+            margin-bottom: 30px;   
+            align-items: center;
+
+            .card-l3 {
+              padding: 16px;
+              max-height: 130px;
+              margin: 20px 0 20px 20px;
+              width: 100%;
+              max-width: 130px;   
+              position: relative;
+
+              .img-icons {
+                width:170px;
+                height: 170px;
+                position: absolute;
+                top: -64px;
+                left: -27px;
+              }
+
+                       }
+              .card-r {
+                padding-right: 4px;
+                       }
+           }
+           }
+       
+}

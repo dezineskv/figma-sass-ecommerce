@@ -1,0 +1,46 @@
+@use '../scss/variables';
+@use '../scss/mixins';
+
+.outer-gallery {
+    background-color: $primary-color;
+
+    .cards-gallery {
+      flex-wrap: wrap;
+      justify-content: space-around;
+        max-width: $max1440;
+        margin: 0 auto; 
+        column-gap: 30px;
+        padding: 20px 0 60px 0px;
+
+        @include xxlMinBreakPoint {
+            margin: 0 auto;
+            text-align: center;
+            max-width: 90% !important;
+            justify-content: center;
+        
+            }
+            @include xxlMaxBreakPoint {
+            margin: 0 auto;
+            text-align: left;
+            }
+           }
+       
+}
+
+
+.be-vietnam-pro-ht {
+   font-family: 'Be-Vietnam-Pro';
+    font-weight: $weight6;
+    font-style: normal;
+    font-size: $p24;
+    line-height: $line28;
+    text-align: left;
+    color: $secondary-color;
+  }
+
+.gal-img {
+  padding: 10px;
+}
+
+
+

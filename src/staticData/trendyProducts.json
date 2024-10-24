@@ -1,0 +1,76 @@
+{
+    "trendies": [
+        {
+      "id": 1,
+      "name": "Respira",
+      "description": "Couch",
+      "price": "$2,500.00",
+      "presale": "$3,500.00",
+      "discount": "25% off",
+      "image": "/trendy/1.png"
+    },
+    {
+      "id": 2,
+      "name": "Headphones",
+      "description": "Mellon's Brand",
+      "price": "$2,500.00",
+      "presale": "$3,500.00",
+      "discount": "25% off",
+      "image": "/trendy/2.png"
+    },
+    {
+      "id": 3,
+      "name": "Laptop",
+      "description": "HP Brand",
+      "price": "$2,500.00",
+      "presale": "$3,500.00",
+      "discount": "25% off",
+      "image": "/trendy/3.png"
+    },
+    {
+      "id": 4,
+      "name": "Leviosa",
+      "description": "Stylish cafe seat",
+      "price": "$2,500.00",
+      "presale": "$3,500.00",
+      "discount": "25% off",
+      "image": "/trendy/4.png"
+    },
+    {
+      "id": 5,
+      "name": "Barboreal Gray Sweats",
+      "description": "Priya's",
+      "price": "$2,500.00",
+      "presale": "$3,500.00",
+      "discount": "25% off",
+      "image": "/trendy/5.png"
+    },
+    {
+      "id": 6,
+      "name": "Pingky",
+      "description": "Cute coffee table",
+      "price": "$2,500.00",
+      "presale": "$3,500.00",
+      "discount": "25% off",
+      "image": "/trendy/6.png"
+    },
+    {
+      "id": 7,
+      "name": "Respira",
+      "description": "Boxing gloves",
+      "price": "$2,500.00",
+      "presale": "$3,500.00",
+      "discount": "25% off",
+      "image": "/trendy/7.png"
+    },
+    {
+      "id": 8,
+      "name": "Phone",
+      "description": "One Plus 8 Pro",
+      "price": "$2,500.00",
+      "presale": "$3,500.00",
+      "discount": "25% off",
+      "image": "/trendy/8.png"
+    }
+  ]
+}

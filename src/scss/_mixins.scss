@@ -1,0 +1,66 @@
+@use './variables';
+
+@mixin smMinBreakPoint {
+    @media (min-width: #{$screen-sm}) {
+        @content
+    }
+};
+
+@mixin smMaxBreakPoint {
+    @media (max-width: #{$screen-sm}) {
+        @content
+    }
+};
+
+@mixin mdMinBreakPoint {
+    @media (min-width: #{$screen-md}) {
+        @content
+    }
+};
+
+@mixin mdMaxBreakPoint {
+    @media (max-width: #{$screen-md}) {
+        @content
+    }
+};
+
+@mixin lgMinBreakPoint {
+    @media (min-width: #{$screen-lg}) {
+        @content
+    }
+};
+@mixin lgMaxBreakPoint {
+    @media (max-width: #{$screen-lg}) {
+        @content
+    }
+};
+
+@mixin xlMinBreakPoint {
+    @media (max-width: #{$screen-xl}) {
+        @content
+    }
+};
+@mixin xlMaxBreakPoint {
+    @media (max-width: #{$screen-xl}) {
+        @content
+    }
+};
+@mixin xxlMaxBreakPoint {
+    @media (max-width: #{$screen-xxl}) {
+        @content
+    }
+};
+@mixin xxlMinBreakPoint {
+    @media (max-width: #{$screen-xxl}) {
+        @content
+    }
+};
+
+@mixin xxlMaxBreakPoint {
+    @media (min-width: #{$screen-xxl}) {
+        @content
+    }
+};
+
+
+

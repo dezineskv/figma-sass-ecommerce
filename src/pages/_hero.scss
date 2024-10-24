@@ -1,0 +1,173 @@
+@use '../scss/variables';
+@use '../scss/mixins';
+
+
+.hero-outer {
+  background-color: $secondary-color;
+  width: 100%;
+  margin: 0px;
+  padding: 40px 0;
+  box-sizing: border-box;
+
+
+  .hero-inner {
+    background-color: $secondary-color;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: $max1440;
+
+    .hero-expand {
+      flex-wrap: nowrap;
+      flex-direction: row;
+         
+    @include mdMaxBreakPoint {
+      width: 100%;
+      margin: 0;
+      text-align: center;
+      flex-direction: column;
+      flex-wrap: wrap !important;
+    
+      }
+      @include lgMinBreakPoint {
+        max-width: 50%;
+        margin: 0;
+        text-align: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+      
+        }
+      }
+        .inner-img-hero {
+          overflow: hidden;
+
+              .hero-img {
+              width: 100%;
+
+                @include mdMinBreakPoint {
+                  width: 300px;
+                  margin: 0 auto;
+                  text-align: center;
+                  }          
+      
+                @include lgMinBreakPoint {
+                  width: 100% ;
+                  max-width: 650px;
+                  margin: 0 auto;
+                  text-align: center;
+          
+              }
+              
+          }
+        }
+          .cards-h {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 680px;
+            justify-content: space-between;
+            padding-top: 20px;
+        }
+      }
+    }   
+
+.row.cols-md-1 {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+
+  .hero-header, .hero-text
+    {
+      text-align: left;
+      color: $black;
+
+    @include mdMaxBreakPoint {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+    
+      }
+      @include xxlMaxBreakPoint {
+      text-align: left;
+      }
+  }
+
+
+}
+.primary-heading-h {
+  font-family: $poppins;
+  font-size: $primary-heading;
+  font-weight: $weight7;
+  line-height: $line60;
+  text-align: left;
+  color: $black;
+
+  @include mdMaxBreakPoint {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  
+    }
+}
+.be-vietnam-pro-165-h {
+  text-align: left;
+  color: $black;
+  font-family: $vietnam-pro;
+
+  @include lgMaxBreakPoint {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  
+    }
+}
+.be-vietnam-pro-6-h {
+  text-align: left;
+  color: $black;
+  font-family: $vietnam-pro;
+}
+
+h4, p, .btn-h {
+  font-family: $poppins;
+  text-align: left;
+
+  @include lgMaxBreakPoint {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  
+    }
+}
+
+
+
+.btn-primary-o {
+  background-color: $orange;
+  border-radius: 8px;
+  width: 155px;
+  height: 48px;
+}
+
+.new-arrival {
+  font-family: $vietnam-pro;
+  font-weight: $weight6;
+  font-style: normal;
+  font-size: $p20;
+  line-height: $line24;
+  color: $orange;
+  text-align: left;
+
+@include mdMaxBreakPoint {
+  min-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  }
+
+
+}
+
+.inner-1 {
+
+  @include smMinBreakPoint {
+    border: 0px;
+
+    }
+}

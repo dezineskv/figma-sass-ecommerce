@@ -1,0 +1,209 @@
+
+.pt-10 {
+    padding-top: 10px;
+  }
+  .pt-20 {
+    padding-top: 20px;
+  }
+.pb-20 {
+    padding-bottom: 20px;
+  }
+  .pt30 {
+    padding-top: 30px;
+  }
+  .btn-primary {
+    background: #355BFB;
+    width: 147px;
+    border-radius: 8px;
+  }
+  .mb-30 {
+    margin-bottom: 30px;;
+  }
+
+.flexing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.text-left {
+  text-align: left;
+
+  @include lgMaxBreakPoint {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+
+    }
+}
+
+.primary-heading {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+}
+
+.secondary-heading {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.be-vietnam-pro-12 {
+  font-family: $vietnam-pro;
+
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.be-vietnam-pro-14 {
+  font-family: $vietnam-pro;
+
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.be-vietnam-pro-145 {
+  font-family: $vietnam-pro;
+
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+}
+.be-vietnam-pro-146w {
+  font-family: $vietnam-pro;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  color: $primary-color;
+}
+.be-vietnam-pro-146b {
+  font-family: $vietnam-pro;
+
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  color: black;
+}
+.be-vietnam-pro-166 {
+    font-family: $vietnam-pro;
+
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+  }
+
+.be-vietnam-pro-16 {
+    font-family: $vietnam-pro;
+
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+  }
+  .be-vietnam-pro-165 {
+    font-family: $vietnam-pro;
+
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+  }
+  .be-vietnam-pro-165-22 {
+    font-family: $vietnam-pro;
+
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    color: black;
+  }
+  .be-vietnam-pro-18 {
+    font-family: $vietnam-pro;
+
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .be-vietnam-pro-185 {
+    font-family: $vietnam-pro;
+
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .be-vietnam-pro-20 {
+    font-family: $vietnam-pro;
+
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+  }
+  .be-vietnam-pro-4 {
+    font-family: $vietnam-pro;
+
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  .be-vietnam-pro-5 {
+    font-family: $vietnam-pro;
+
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  .be-vietnam-pro-6-h {
+    font-family: $vietnam-pro;
+
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: left;
+  }
+
+  .be-vietnam-pro-7 {
+    font-family: $vietnam-pro;
+
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+  }
+
+
+

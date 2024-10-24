@@ -1,0 +1,100 @@
+
+@use './scss/global';
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+.container {
+  max-width: 1440px !important;
+}
+.container-black {
+    background-color: black;
+}
+.container-gray {
+  background-color: #F2F0F1;
+}
+
+.main-outer {
+    background-color: gray;
+
+    .main {
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;    }
+}
+.card-body {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.container-r {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto !important;
+  padding-top: 0px;
+  background-color: black;
+
+  //   @include lgMaxBreakPoint {
+  //     width: 100%;
+  //     margin: 0;
+  // }
+
+  //   @include lgMinBreakPoint {
+  //     width: 100%;
+  //     max-width: $max1440;
+  //     margin: 0 auto;
+  // }
+}
+.gap-h2 {
+  column-gap: 55%;
+
+//   @include mdMinBreakPoint {
+//     column-gap: 55%;
+
+// }
+
+//   @include lgMinBreakPoint {
+//     column-gap: 65%;
+
+//     }
+ }
+
+
+.heart-1 {
+  width: 32px;
+  position: absolute;
+  left: -270px;
+  z-index: 1;
+  top: 10px;
+}
+.heart-2 {
+  width: 32px;
+  position: relative;
+  left: 191px;
+  z-index: 1;
+  top: -115px;
+}
+
+.tag {
+  width: 86px;
+  position: relative;
+  left: 100px;
+  z-index: 1;
+  top: 0px;
+}
+.fixed-top {
+  background-color: black;
+}
+
