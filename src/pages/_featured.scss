@@ -13,7 +13,6 @@
       column-gap: 30px;
 
       @include smMinBreakPoint {
-        width: 80%;
         margin: 0 auto;
     }
   
@@ -81,7 +80,6 @@ h2 {
 
   .be-vietnam-pro-f {
     font-family: $vietnam-pro;
-
     font-weight: $weight5;
     font-style: normal;
     font-size: $p14;
@@ -99,7 +97,6 @@ h2 {
 
       .presale-f {
         font-family: $vietnam-pro;
-
         font-weight: $weight5;
         font-style: normal;
         font-size: $p14;
@@ -112,7 +109,6 @@ h2 {
 
       .rating-f {
         font-family: $vietnam-pro;
-
         font-weight: $weight5;
         font-style: normal;
         font-size: $p14;

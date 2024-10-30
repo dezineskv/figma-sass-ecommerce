@@ -8,7 +8,6 @@ function Featured () {
     <>
         <div className="outer-featured background-gray text">
         <h2 className="secondary-heading">Featured Products</h2>
-
             <div className="cards-featured" style={{display: 'flex', justifyContent: 'center', margin: '0 auto'}}>
                 <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">

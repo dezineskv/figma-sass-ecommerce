@@ -19,10 +19,8 @@ function Header() {
                 </div>
               </div>
             <div className="col-2 d-flex"  style={{justifyContent: 'flex-end'}}>
-        {/* <button className="mode" onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}><img src="/Moon.png" alt="dark mode" className="moon" /></button> */}
-      
-       
-              <img src="/cart-2.png" alt="icons" className="icons-h" /> <img src="/profile-icon-2.png" alt="icons" className="icons-h" />
+        {/* <button className="mode" onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}><img src="/Moon.png" alt="dark mode" className="moon" /></button> */}      
+        <img src="/Moon.png" alt="icons" className="icons-h" /><img src="/cart-2.png" alt="icons" className="icons-h" /> <img src="/profile-icon-2.png" alt="icons" className="icons-h" />
             </div>
           </div>   
         </div>

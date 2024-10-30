@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 import MyNav from './MyNav';
 import Hero from './Hero';
-// import CollapsibleExample from './CollapsibleExample';
+import Navi from './Navi';
 import Featured from './Featured';
 import Explore from './Explore';
 import Footer from './Footer';
@@ -16,7 +16,6 @@ function Home() {
     <>
     <Header></Header>
     <MyNav></MyNav>
-    {/* <CollapsibleExample></CollapsibleExample> */}
     <Hero></Hero>
     <ThreeCols></ThreeCols>
     <Featured></Featured>

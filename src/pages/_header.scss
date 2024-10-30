@@ -16,7 +16,7 @@
       max-width: $max1440 !important;
       margin: 0 auto;
       background-color: $black;
-      padding: 1rem;
+      padding-top: 1rem;
       display: flex;
       justify-content: space-between;
 
@@ -34,12 +34,10 @@
       }
       .header-l {
         text-align: left;
-        margin-left: 1rem;
         justify-content: space-around;
 
         @include xxlMinBreakPoint {
           width: 25%;
-          margin-left: 1rem;
           justify-content: space-around;
 
       }
@@ -115,7 +113,7 @@
 }
 
 .form-control .me-2, input[type=search] {
-  width: 100%;
+  width: 300px;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;

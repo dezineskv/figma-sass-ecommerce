@@ -17,11 +17,11 @@ export default function Hero() {
                         <Link to="/shop"><button className="btn-primary-o" type="button">Shop Now</button></Link>
                     </div>
                     <div className="cards-h " style={{display: 'flex', justifyContent: 'space-between'}}>
-                            <div className="inner" style={{paddingRight: '20px', borderRight:'1px solid gray'}}>
+                            <div className="inner-h" style={{paddingRight: '4rem', borderRight:'1px solid gray'}}>
                                     <p className="be-vietnam-pro-6-h">200+ </p>
                                     <p className="be-vietnam-pro-4">International Brands</p>
                             </div>
-                            <div className="inner" style={{paddingRight: '20px', borderRight:'1px solid gray'}}>
+                            <div className="inner-h" style={{paddingRight: '4rem', borderRight:'1px solid gray'}}>
                                     <p className="be-vietnam-pro-6-h">2,000+ </p>
                                     <p className="be-vietnam-pro-4">High-Quality Products</p>
                             </div>

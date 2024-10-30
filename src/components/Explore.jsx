@@ -1,50 +1,99 @@
-import { React } from 'react';
+import React from 'react'
+import { Carousel } from 'react-bootstrap';
 
-function Explore () {
-
+function Explore() {
   return (
     <>
-    <div className="explore-outer background-gray-lt">
+       <div className="explore-outer background-gray-lt">
         <div className="row explore-inner background-gray-lt" style={{maxWidth: '1440px !important'}}>
             <div className="col explore-align">
                 <h4 className="primary-heading-e pt-10">50+ Beautiful  & Modern Category Product</h4>
-                <p className="be-vietnam-pro-165 pt-20">Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+                <p className="be-vietnam-pro-165 pt-20">Our designer already made a lot of beautiful prototype of rooms that inspire you</p>
                 <div className="pt-20" style={{textAlign: 'left'}}>
                     <button className="btn-primary explore-but-e" type="button">Explore More</button>
                 </div>
             </div>          
             <div className="col explore-img">
-                <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-                    <div className="carousel-indicators  dot">
-                        <button type="button" className="dot active" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" className="dot"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" className="dot"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+            <Carousel>
+            <Carousel.Item>
+             <div id="carousel-example-generic" className="carousel slide" data-ride="carousel">
+                {/* <ol className="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" className="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol> */}
+
+                <div className="carousel-inner" role="listbox">          
+                    <div className="item active">
+                        <img src="/skincare.png" className="" alt="explore"/>
+                        <div className="carousel-caption">
+                            Explore More
+                        </div>
                     </div>
-                    <div className="carousel-inner">
-                        <div className="carousel-item active">
-                        <img src="/skincare.png" className="d-block w-100 products" alt="explore"/>
-                        </div>
-                        <div className="carousel-item">
-                        <img src="/makeup.png" className="d-block w-100 products" alt="explore"/>
-                        </div>
-                        <div className="carousel-item">
-                        <img src="/groceries.png" className="d-block w-100 products" alt="explore"/>
+                                    
+                    {/* ... */}
+                </div>
+                
+                </div>
+                
+                </Carousel.Item> <Carousel.Item>
+             <div id="carousel-example-generic" className="carousel slide" data-ride="carousel">
+                {/* <ol className="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" className="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol> */}
+
+                <div className="carousel-inner" role="listbox">          
+                    <div className="item active">
+                        <img src="/groceries.png" className="" alt="explore"/>
+                        <div className="carousel-caption">
+                            Explore More
                         </div>
                     </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Previous</span>
-                    </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
-                    </button>
-                </div>              
-            </div>  
-        </div>
-  </div> 
-  </>
-    )
+                                    
+                    {/* ... */}
+                </div>
+                
+                </div>
+                
+                </Carousel.Item><Carousel.Item>
+             <div id="carousel-example-generic" className="carousel slide" data-ride="carousel">
+                {/* <ol className="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" className="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol> */}
+
+                <div className="carousel-inner" role="listbox">          
+                    <div className="item active">
+                        <img src="/makeup.png" className="" alt="explore"/>
+                        <div className="carousel-caption">
+                            Explore More
+                        </div>
+                    </div>
+                                    
+                    {/* ... */}
+                </div>
+                
+                </div>
+                
+                </Carousel.Item>
+                </Carousel>
+                <a className="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span className="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                </a>
+                <a className="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span><span className="visually-hidden">Previous</span></button><button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next"><span className="carousel-control-next-icon" aria-hidden="true"></span><span className="visually-hidden">Next</span></button>
+                </a>
+
+            </div>
+      </div>
+    </div>
+    </>
+  )
 }
 
 export default Explore

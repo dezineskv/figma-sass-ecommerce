@@ -64,6 +64,18 @@
             max-width: 680px;
             justify-content: space-between;
             padding-top: 20px;
+
+            .inner-h {
+              padding-right: 4rem;
+
+
+              @include smMinBreakPoint {
+                border: 0px;
+                padding-right: 0;
+
+            
+                }
+            }
         }
       }
     }   
@@ -163,10 +175,3 @@ h4, p, .btn-h {
 
 }
 
-.inner-1 {
-
-  @include smMinBreakPoint {
-    border: 0px;
-
-    }
-}
