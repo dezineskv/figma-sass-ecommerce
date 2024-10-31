@@ -10,12 +10,13 @@ import Gallery from './Gallery';
 import Latest from './Latest';
 import Trending from './Trending';
 import ThreeCols from './ThreeCols';
+import CollapsibleExample from './CollapsibleExample';
 
 function Home() {
   return (
     <>
     <Headers></Headers>
-    {/* <MyNav></MyNav> */}
+{/* <CollapsibleExample></CollapsibleExample> */}
     <Hero></Hero>
     <ThreeCols></ThreeCols>
     <Featured></Featured>

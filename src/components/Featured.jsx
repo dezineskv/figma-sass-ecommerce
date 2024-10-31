@@ -9,11 +9,10 @@ function Featured () {
         <div className="outer-featured background-gray text">
         <h2 className="secondary-heading">Featured Products</h2>
             <div className="cards-featured" style={{display: 'flex', justifyContent: 'center', margin: '0 auto'}}>
-                <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-                    <div className="carousel-inner">
+                <div className="carousel-inner">
                     <Carousel>
-                    <Carousel.Item>
-                        <div className="carousel-item-active">                    
+                        <Carousel.Item>
+                        <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">                    
                                 <div className="row row-cols-1 row-cols-md-5 g-4 background" style={{width: '100%', backgroundColor: 'white'}}>
                                     {data.features.map((feature) => (          
                                         <div className="col" key={feature.id}>
@@ -35,7 +34,7 @@ function Featured () {
                             </div>
                         </div>
                         </Carousel.Item> <Carousel.Item>
-                        <div className="carousel-item-active">                    
+                        <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">                    
                                 <div className="row row-cols-1 row-cols-md-5 g-4 background" style={{width: '100%', backgroundColor: 'white'}}>
                                     {data.features.map((feature) => (          
                                         <div className="col" key={feature.id}>
@@ -57,15 +56,20 @@ function Featured () {
                             </div>
                         </div>
                         </Carousel.Item>
-      </Carousel>
+                    </Carousel>
                     </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span><span className="visually-hidden">Previous</span></button><button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next"><span className="carousel-control-next-icon" aria-hidden="true"></span><span className="visually-hidden">Next</span></button>
+                    <a className="left carousel-control" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+                        </button>
+                    </a>
+                    <a className="right carousel-control" href="#carouselExampleControls" role="button" data-slide="next">             
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+                    </button>
+                    </a>
                 </div>               
         </div>
-        </div>  
 </>
   )
 }
 
-export default Featured;
+export default Featured

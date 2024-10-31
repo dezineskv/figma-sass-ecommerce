@@ -70,11 +70,13 @@ function Explore() {
                 </Carousel.Item>
                 </Carousel>
                 <a className="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <span className="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    {/* <span className="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> */}
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span><span className="visually-hidden">Previous</span></button>
                 </a>
-                <a className="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span><span className="visually-hidden">Previous</span></button><button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next"><span className="carousel-control-next-icon" aria-hidden="true"></span><span className="visually-hidden">Next</span></button>
+                <a className="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">             
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span><span className="visually-hidden">Next</span></button>
                 </a>
 
             </div>
