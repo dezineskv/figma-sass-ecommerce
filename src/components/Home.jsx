@@ -16,7 +16,6 @@ function Home() {
   return (
     <>
     <Headers></Headers>
-{/* <CollapsibleExample></CollapsibleExample> */}
     <Hero></Hero>
     <ThreeCols></ThreeCols>
     <Featured></Featured>

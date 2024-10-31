@@ -39,7 +39,7 @@ function CollapsibleExample() {
     <span className="navbar-toggler-icon"></span>
   </button> */}
   </div>
-  <div className="col-6">
+  {/* <div className="col-6">
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
@@ -56,7 +56,7 @@ function CollapsibleExample() {
     
 
   </div>
-  </div>
+  </div> */}
 </nav>
   </div>
   </div>

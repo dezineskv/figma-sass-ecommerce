@@ -35,7 +35,19 @@
 
     }
 }
-
+ul.menu {
+  background-color: $primary-color;
+  list-style: none;
+  padding: 20px 20px 20px 40px;
+  width: 263px;
+}
+.drop-items {
+  text-align: left;
+  padding-bottom: 10px;
+}
+.dropdown-icons {
+  padding-right: 10px;
+}
 .primary-heading {
     font-family: Poppins;
     font-size: 30px;
