@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './Header';
+import Headers from './Headers';
 import MyNav from './MyNav';
 import Hero from './Hero';
 import Navi from './Navi';
@@ -14,8 +14,8 @@ import ThreeCols from './ThreeCols';
 function Home() {
   return (
     <>
-    <Header></Header>
-    <MyNav></MyNav>
+    <Headers></Headers>
+    {/* <MyNav></MyNav> */}
     <Hero></Hero>
     <ThreeCols></ThreeCols>
     <Featured></Featured>
