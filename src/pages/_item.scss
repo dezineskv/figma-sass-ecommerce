@@ -35,6 +35,7 @@
       }
       .item-right {
         width: 480px;
+        border: 0px;
       }
     .two-col-item {
         display: flex;
@@ -45,8 +46,7 @@
             display: block;
             margin: 0;
         }
-    }
-     
+    }    
           }                  
         
  }
@@ -109,5 +109,4 @@ h2 {
     color: $black;
     border: 1px solid $black;
   }
-
 

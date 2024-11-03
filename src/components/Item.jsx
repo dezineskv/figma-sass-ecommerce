@@ -21,7 +21,7 @@ function Item() {
                               <div className="col-sm-1 col-md-4 card card-item">                                           
                                     <img src="/shirt-lg.png" alt="product" />          
                               </div>
-                              <div className="col-sm-1  col-md-6 card item-right">                                           
+                              <div className="col-sm-1  col-md-6 card item-right no-border">                                           
                                         <h5 className="be-vietnam-pro-h-i">One Life Graphics T</h5>
                                         <p><img src="/4.5stars.png" alt="4.5 stars" /></p>
                                         <h5 className="be-vietnam-pro-h-i">$299</h5>
