@@ -1,0 +1,40 @@
+ul.menu {
+    background-color: $primary-color;
+    list-style: none;
+    padding: 20px 20px 20px 40px;
+    width: 263px;
+    border-radius: 6px;
+    margin-top: 58px;
+  }
+  .drop-items {
+    text-align: left;
+    padding-bottom: 10px;
+  }
+  .dropdown-icons {
+    padding-right: 10px;
+  }
+  
+  .button-header {
+    position: absolute;
+    left: 0;
+    top: 30px;
+  }
+  .navbar-nav.active{
+    display:flex;
+  }
+  .hamburger-but {
+    position: absolute;
+    right: -30px;
+  }
+  .but {
+    margin-right: 2rem;
+  }
+  .hamburger {
+    border: 1px solid $primary-color !important;
+    list-style: none;
+    padding: 20px;
+    width: 163px;
+    border-radius: 6px;
+    position: relative !important;
+    top: 28px;
+  }
