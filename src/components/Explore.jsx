@@ -22,7 +22,7 @@ function Explore() {
 
                 <div className="carousel-inner" role="listbox">          
                     <div className="item active">
-                        <img src="/skincare.png" className="" alt="explore"/>
+                        <img src="skincare.png" className="" alt="explore"/>
                         <div className="carousel-caption">
                             Explore More
                         </div>
@@ -39,7 +39,7 @@ function Explore() {
 
                 <div className="carousel-inner" role="listbox">          
                     <div className="item active">
-                        <img src="/groceries.png" className="" alt="explore"/>
+                        <img src="groceries.png" className="" alt="explore"/>
                         <div className="carousel-caption">
                             Explore More
                         </div>
@@ -56,7 +56,7 @@ function Explore() {
 
                 <div className="carousel-inner" role="listbox">          
                     <div className="item active">
-                        <img src="/makeup.png" className="" alt="explore"/>
+                        <img src="makeup.png" className="" alt="explore"/>
                         <div className="carousel-caption">
                             Explore More
                         </div>
