@@ -1,0 +1,32 @@
+{
+    "items": [
+        
+    {
+      "id": 1,
+      "name": "T-shirt with Tape Details",
+      "price": 200.0,
+      "original_price": 300.0,
+      "discount": "25% off",
+      "rating": 4.9,
+      "image": "/featured/t-shirt.png"
+    },
+    {
+      "id": 2,
+      "name": "Latest Mini-split systems",
+      "price": 205.0,
+      "original_price": 300.0,
+      "discount": "15% off",
+      "rating": 4.5,
+      "image": "/featured/ac.png"
+    },
+    {
+      "id": 3,
+      "name": "Jeans",
+      "price": 225.0,
+      "original_price": 300.0,
+      "discount": "5% off",
+      "rating": 4.7,
+      "image": "/featured/jeans.png"
+    }
+  ]
+}

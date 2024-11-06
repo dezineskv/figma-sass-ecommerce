@@ -2,8 +2,19 @@ import { React } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import MyNav from './MyNav';
+import { useParams } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import data from '../staticData/items.json';
 
 function Item() {
+      const [item, setItem ] = useState([]);
+      const { id } = useParams();
+      console.log(id);
+  
+      useEffect(() => {
+          const singleItem = data.items.find((user) => user.id === parseInt(id));
+          setItem(singleItem);
+      }, [id]);
 
   return (
     <>
@@ -14,18 +25,18 @@ function Item() {
           <div className="row d-flex justify-content-center cards-item background">                                      
                             <div className="col-sm-1 col-md-2 item-left">                                           
                                   <div className="card items-left">                                       
-                                      <img src="shirt-thumb.png" alt="product" />
+                                      <img src="/shirt-thumb.png" alt="product" />
                                     </div>
                                     <div className="card items-left">card</div>
                               </div>  
                               <div className="col-sm-1 col-md-4 card card-item">                                           
-                                    <img src="shirt-lg.png" alt="product" />          
+                                    <img src={item.image} alt="product" />          
                               </div>
                               <div className="col-sm-1  col-md-6 card item-right no-border">                                           
-                                        <h5 className="be-vietnam-pro-h-i">One Life Graphics T</h5>
+                                        <h5 className="be-vietnam-pro-h-i">{item.name} </h5>
                                         <p><img src="4.5stars.png" alt="4.5 stars" /></p>
-                                        <h5 className="be-vietnam-pro-h-i">$299</h5>
-                                        <p className="be-vietnam-pro-165-22">This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.</p>
+                                        <h5 className="be-vietnam-pro-h-i">${item.price}</h5>
+                                        <p className="be-vietnam-pro-165-22">{item.discount}, Rating: {item.rating}</p>
                                         <p><img src="latest/arrow.png" className='arrow' alt="arrow"/></p>
                                         <div className="two-col-item">
                                               <button className="btn-primary stack-buts-item" type="button">Add to Cart</button>
