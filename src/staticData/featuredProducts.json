@@ -8,7 +8,7 @@
       "original_price": 300.0,
       "discount": "25% off",
       "rating": 4.9,
-      "image": "/featured/t-shirt.png"
+      "image": "featured/t-shirt.png"
     },
     {
       "id": 2,
@@ -17,7 +17,7 @@
       "original_price": 300.0,
       "discount": "25% off",
       "rating": 4.9,
-      "image": "/featured/ac.png"
+      "image": "featured/ac.png"
     },
     {
       "id": 3,
@@ -26,7 +26,7 @@
       "original_price": null,
       "discount": null,
       "rating": 4.9,
-      "image": "/featured/jeans.png"
+      "image": "featured/jeans.png"
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
       "original_price": 300.0,
       "discount": "25% off",
       "rating": 4.9,
-      "image": "/featured/remote.png"
+      "image": "featured/remote.png"
     },
     {
       "id": 5,
@@ -44,7 +44,7 @@
       "original_price": 300.0,
       "discount": "25% off",
       "rating": 4.9,
-      "image": "/featured/ac-white.png"
+      "image": "featured/ac-white.png"
     }
   ]
 }

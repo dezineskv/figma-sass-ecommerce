@@ -7,7 +7,7 @@
       "price": "$2,500.00",
       "presale": "$3,500.00",
       "discount": "25% off",
-      "image": "/trendy/1.png"
+      "image": "trendy/1.png"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "price": "$2,500.00",
       "presale": "$3,500.00",
       "discount": "25% off",
-      "image": "/trendy/2.png"
+      "image": "trendy/2.png"
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "price": "$2,500.00",
       "presale": "$3,500.00",
       "discount": "25% off",
-      "image": "/trendy/3.png"
+      "image": "trendy/3.png"
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "price": "$2,500.00",
       "presale": "$3,500.00",
       "discount": "25% off",
-      "image": "/trendy/4.png"
+      "image": "trendy/4.png"
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "price": "$2,500.00",
       "presale": "$3,500.00",
       "discount": "25% off",
-      "image": "/trendy/5.png"
+      "image": "trendy/5.png"
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "price": "$2,500.00",
       "presale": "$3,500.00",
       "discount": "25% off",
-      "image": "/trendy/6.png"
+      "image": "trendy/6.png"
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "price": "$2,500.00",
       "presale": "$3,500.00",
       "discount": "25% off",
-      "image": "/trendy/7.png"
+      "image": "trendy/7.png"
     },
     {
       "id": 8,
@@ -70,7 +70,7 @@
       "price": "$2,500.00",
       "presale": "$3,500.00",
       "discount": "25% off",
-      "image": "/trendy/8.png"
+      "image": "trendy/8.png"
     }
   ]
 }
