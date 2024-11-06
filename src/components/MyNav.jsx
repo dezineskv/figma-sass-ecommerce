@@ -31,17 +31,17 @@ function myNav () {
               </button>
                   {isOpen && (
                   <ul className="menu text-align-left be-vietnam-pro-12" style={{zIndex: '1'}}>
-                  <li className="drop-items"><Link to="/shop"><img src="/dropdown/elect.png" alt="icons" className="dropdown-icons" />Electronics Devices</Link></li>
-                  <li className="drop-items"><Link to="/shop"><img src="/dropdown/elec.png" alt="icons" className="dropdown-icons" />Electronic Accessories</Link></li>
-                  <li className="drop-items"><Link to="/shop"><img src="/dropdown/tv.png" alt="icons"className="dropdown-icons" />TV & Home Appliances</Link></li>
-                  <li className="drop-items"><Link to="/shop"><img src="/dropdown/health.png" alt="icons"className="dropdown-icons" />Health & Beauty</Link></li>
-                  <li className="drop-items"><Link to="/shop"><img src="/dropdown/baby.png" alt="icons"className="dropdown-icons" />Babies & Toys</Link></li>
-                  <li className="drop-items"><Link to="/shop"><img src="/dropdown/pet.png" alt="icons" className="dropdown-icons" />Groceries & Pets</Link></li>
-                  <li className="drop-items"><Link to="/shop"><img src="/dropdown/home.png" alt="icons" className="dropdown-icons" />Home & Lifestyle</Link></li>
-                  <li className="drop-items"><Link to="/shop"><img src="/dropdown/women.png" alt="icons"className="dropdown-icons" />Women's Fashion</Link></li>
-                  <li className="drop-items"><Link to="/shop"><img src="/dropdown/men.png" alt="icons" className="dropdown-icons" />Men's Fashion</Link></li>
-                  <li className="drop-items"><Link to="/shop"><img src="/dropdown/watches.png" alt="icons" className="dropdown-icons" />Watches & Accessories</Link></li>
-                  <li className="drop-items"><Link to="/shop"><img src="/dropdown/sports.png" alt="icons" className="dropdown-icons" />Sports & Outdoors</Link></li>                  
+                  <li className="drop-items"><Link to="/shop"><img src="dropdown/elect.png" alt="icons" className="dropdown-icons" />Electronics Devices</Link></li>
+                  <li className="drop-items"><Link to="/shop"><img src="dropdown/elec.png" alt="icons" className="dropdown-icons" />Electronic Accessories</Link></li>
+                  <li className="drop-items"><Link to="/shop"><img src="dropdown/tv.png" alt="icons"className="dropdown-icons" />TV & Home Appliances</Link></li>
+                  <li className="drop-items"><Link to="/shop"><img src="dropdown/health.png" alt="icons"className="dropdown-icons" />Health & Beauty</Link></li>
+                  <li className="drop-items"><Link to="/shop"><img src="dropdown/baby.png" alt="icons"className="dropdown-icons" />Babies & Toys</Link></li>
+                  <li className="drop-items"><Link to="/shop"><img src="dropdown/pet.png" alt="icons" className="dropdown-icons" />Groceries & Pets</Link></li>
+                  <li className="drop-items"><Link to="/shop"><img src="dropdown/home.png" alt="icons" className="dropdown-icons" />Home & Lifestyle</Link></li>
+                  <li className="drop-items"><Link to="/shop"><img src="dropdown/women.png" alt="icons"className="dropdown-icons" />Women's Fashion</Link></li>
+                  <li className="drop-items"><Link to="/shop"><img src="dropdown/men.png" alt="icons" className="dropdown-icons" />Men's Fashion</Link></li>
+                  <li className="drop-items"><Link to="/shop"><img src="dropdown/watches.png" alt="icons" className="dropdown-icons" />Watches & Accessories</Link></li>
+                  <li className="drop-items"><Link to="/shop"><img src="dropdown/sports.png" alt="icons" className="dropdown-icons" />Sports & Outdoors</Link></li>                  
                 </ul>
                   )}           
             </div>
