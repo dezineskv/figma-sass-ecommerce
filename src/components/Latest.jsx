@@ -16,7 +16,7 @@ function Latest() {
                                                 <h5 className="be-vietnam-pro-hl">Hawaiian Shirts</h5>
                                                 <p className="be-vietnam-pro-146w">Dress up in summer vibe</p>
                                                 <p className="be-vietnam-pro-sl">UPTO 50% OFF</p>
-                                                <p><img src="/latest/arrow.png" className='arrow' alt="arrow"/></p>
+                                                <p><img src="latest/arrow.png" className='arrow' alt="arrow"/></p>
                                                     <div className="two-col">
                                                         <div className="btn-l pt-20">
                                                             <Link to="/shop"><button className="btn-primary-l" type="button">Shop Now</button></Link>
@@ -34,7 +34,7 @@ function Latest() {
                                                 <h5 className="be-vietnam-pro-hl">Hawaiian Shirts</h5>
                                                 <p className="be-vietnam-pro-146w">Dress up in summer vibe</p>
                                                 <p className="be-vietnam-pro-sl">UPTO 50% OFF</p>
-                                                <p><img src="/latest/arrow.png" className='arrow' alt="arrow"/></p>
+                                                <p><img src="latest/arrow.png" className='arrow' alt="arrow"/></p>
                                                     <div className="two-col">
                                                         <div className="btn-l pt-20">
                                                         <Link to="/shop"><button className="btn-primary-l" type="button">Shop Now</button></Link>
@@ -52,7 +52,7 @@ function Latest() {
                                                 <h5 className="be-vietnam-pro-hl">Hawaiian Shirts</h5>
                                                 <p className="be-vietnam-pro-146w">Dress up in summer vibe</p>
                                                 <p className="be-vietnam-pro-sl">UPTO 50% OFF</p>
-                                                <p><img src="/latest/arrow.png" className='arrow' alt="arrow"/></p>
+                                                <p><img src="latest/arrow.png" className='arrow' alt="arrow"/></p>
                                                     <div className="two-col">
                                                         <div className="btn-l pt-20">
                                                         <Link to="/shop"><button className="btn-primary-l" type="button">Shop Now</button></Link>
@@ -73,7 +73,7 @@ function Latest() {
                                     <h5 className="cont-width be-vietnam-pro-hlb">Hawaiian Shirts</h5>
                                     <p className="cont-width be-vietnam-pro-146wb text-b" >Dress up in summer vibe</p>
                                     <p className="cont-width be-vietnam-pro-slb">UPTO 50% OFF</p>
-                                    <p className="cont-width"><img src="/latest/arrow-b.png" className='arrow' alt="arrow"/></p>
+                                    <p className="cont-width"><img src="latest/arrow-b.png" className='arrow' alt="arrow"/></p>
                                     <div className="two-col">
                                             <div className="btn-l pt-20">
                                             <Link to="/shop"><button className="btn-primary-lb" type="button">Shop Now</button></Link>
@@ -91,7 +91,7 @@ function Latest() {
                                     <h5 className="cont-width be-vietnam-pro-hlb">Hawaiian Shirts</h5>
                                     <p className="cont-width be-vietnam-pro-146wb text-b">Dress up in summer vibe</p>
                                     <p className="cont-width be-vietnam-pro-slb">UPTO 50% OFF</p>
-                                    <p className="cont-width"><img src="/latest/arrow-b.png" className='arrow' alt="arrow"/></p>
+                                    <p className="cont-width"><img src="latest/arrow-b.png" className='arrow' alt="arrow"/></p>
                                     <div className="two-col">
                                             <div className="btn-l pt-20">
                                             <Link to="/shop"><button className="btn-primary-lb" type="button">Shop Now</button></Link>

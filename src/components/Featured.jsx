@@ -19,7 +19,7 @@ function Featured () {
                                             <div className="card h-100" >
                                                 <div className="card-bg-f">
                                                     <div className="card-img-featured">
-                                                        <img src={feature.image} className="card-img-f" alt="tagged products" /><img src="heart.png" alt="loved products" className="heart-f"/><img src="/orange-tags.png" alt="tagged products" className="tag-f"/>
+                                                        <img src={feature.image} className="card-img-f" alt="tagged products" /><img src="heart.png" alt="loved products" className="heart-f"/><img src="orange-tags.png" alt="tagged products" className="tag-f"/>
                                                     </div>
                                                 </div>
                                             <div className="card-bg-f-b">
@@ -41,7 +41,7 @@ function Featured () {
                                             <div className="card h-100" >
                                                 <div className="card-bg-f">
                                                     <div className="card-img-featured">
-                                                        <img src={feature.image} className="card-img-f" alt="tagged products" /><img src="heart.png" alt="loved products" className="heart-f"/><img src="/orange-tags.png" alt="tagged products" className="tag-f"/>
+                                                        <img src={feature.image} className="card-img-f" alt="tagged products" /><img src="heart.png" alt="loved products" className="heart-f"/><img src="orange-tags.png" alt="tagged products" className="tag-f"/>
                                                     </div>
                                                 </div>
                                             <div className="card-bg-f-b">
