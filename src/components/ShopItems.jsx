@@ -14,9 +14,9 @@ function ShopItems() {
         <h3>Shop Items</h3>
          <div>
           <h2> 
-          {data.items.map((item) => 
+          {data?.items?.map((item) => 
           <Link to={`/item/${item.id}`}><div key={item.id}>
-            <ul><li>{item.name}</li></ul>
+            <ul><li style={{listStyleType: 'none'}}>{item.name}</li></ul>
             </div></Link>)}
         </h2>
         </div>       

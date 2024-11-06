@@ -9,7 +9,7 @@ function Header() {
         <div className="container outer-header" style={{maxWidth: '1440px'}}>
           <div className="row d-flex justify-content-space-between header" style={{width: '100%'}}>     
               <div className="col-7 gap-4 header-l" style={{textAlign: 'left'}}>
-                <Link to="/"><img src="logo_white1.png" alt="logo" className="logo"/></Link>
+                <Link to="/"><div className="logo_white"/></Link>
               </div>
               <div className="col-2 header-m" style={{textAlign: 'right'}}>
                   <div className="collapse navbar-collapse header-search" id="navbarSupportedContent">    

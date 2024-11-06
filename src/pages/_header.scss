@@ -17,12 +17,13 @@
       margin: 0 auto;
       background-color: $black;
       padding-top: 1rem;
+      padding-right: 1rem;
+      padding-left: 1rem;
       display: flex;
       justify-content: space-between;
 
         @include smMinBreakPoint {
           width: 80%;
-          padding-right: 1rem;
           margin-left: 0;
           text-align: left;
       }
@@ -44,6 +45,11 @@
         @include xxlMaxBreakPoint {
           width: 60%;
           justify-content: space-between;
+      }
+      .logo_white {
+        width: 132px;
+        height: 40px;
+        background-image: url("/logo_white1.png");
       }
     }
   
@@ -78,11 +84,10 @@
       }   
     }   
   }
-
-  .logo {
+  .logo_white {
     width: 132px;
     height: 40px;
-
+    background-image: url("logo_white.png");
   }
   
 .header-links-b {

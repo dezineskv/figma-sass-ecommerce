@@ -1,10 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from 'react-router-dom';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-// import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Navbar, NavbarBrand, Collapse, NavItem, NavLink, Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'react-bootstrap';
 import React, { useState } from 'react';
 
 function myNav () {
@@ -25,7 +20,7 @@ function myNav () {
   <div className="container" style={{maxWidth: '1440px'}}>
     <div className="row row-cols-2 d-flex justify-content-space-between py-3" style={{width: '100%',}}>
         <div className="col d-flex" >
-            <div className="dropdown" style={{position: 'absolute', top: '-12px'}}>
+            <div className="dropdown" style={{position: 'absolute', top: '-12px', left: '30px'}}>
               <button className="btn btn-primary dropdown-toggle button-header" onClick={toggleDropdown}>
               Categories
               </button>

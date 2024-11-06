@@ -25,7 +25,7 @@ function Item() {
           <div className="row d-flex justify-content-center cards-item background">                                      
                             <div className="col-sm-1 col-md-2 item-left">                                           
                                   <div className="card items-left">                                       
-                                      <img src="/shirt-thumb.png" alt="product" />
+                                      <img src="shirt-thumb.png" alt="product" />
                                     </div>
                                     <div className="card items-left">card</div>
                               </div>  
