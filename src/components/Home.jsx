@@ -1,6 +1,5 @@
 import React from 'react';
 import Headers from './Headers';
-import MyNav from './MyNav';
 import Hero from './Hero';
 import Featured from './Featured';
 import Explore from './Explore';

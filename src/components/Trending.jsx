@@ -23,7 +23,7 @@ export default function TrendingFourCols() {
         </div>  
         <div className="row row-cols-1" style={{margin: '0 auto', paddingTop: '14px'}}>
               <div className="pt-20 mb-30">
-                    <button className="btn-primary" type="button">View More</button>
+                    <button className="btn-primary" type="button" style={{color: 'white'}}>View More</button>
               </div>
         </div>
   </div>  

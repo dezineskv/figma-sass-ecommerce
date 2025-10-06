@@ -1,161 +1,155 @@
-@use '../scss/variables';
-@use '../scss/mixins';
+@use "../scss/variables";
+@use "../scss/mixins";
 
 .outer-f {
+  background-color: $secondary-color;
+  padding-top: 40px;
+
+  .footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    column-gap: 30px;
+    padding: 20px 0 30px 0px;
     background-color: $secondary-color;
-    padding-top: 40px;
 
-    .footer {
-      max-width: 1440px;
-      margin: 0 auto; 
-      column-gap: 30px;
-      padding: 20px 0 30px 0px;
-      background-color: $secondary-color;
+    @include smMinBreakPoint {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
 
-      @include smMinBreakPoint {
-        padding-left: 20px;
-        padding-right: 20px;     
-        }
-
-        @include xxlMinBreakPoint {
-            padding-left: 20px;
-            padding-right: 11rem;     
-            }
-        @include xxlMaxBreakPoint {
-            padding-right: 20px;
-            padding-left: 0;
-                
-            }
-    
-        }     
+    @include xxlMinBreakPoint {
+      padding-left: 20px;
+      padding-right: 11rem;
+    }
+    @include xxlMaxBreakPoint {
+      padding-right: 20px;
+      padding-left: 0;
+    }
+  }
 }
 
 h2 {
-    text-align: center;
-    padding: 50px 0; 
-    margin: 0 auto;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
 }
 .card-f {
-    max-width: 336px;
-    width: 100%;
-    min-width: 300px;
-    max-height: 250px;
+  max-width: 336px;
+  width: 100%;
+  min-width: 300px;
+  max-height: 250px;
 
-    .logo-img {
-        text-align: left;
-        padding-bottom: 20px;
-      }
+  .logo-img {
+    text-align: left;
+    padding-bottom: 20px;
+  }
 }
 
 .card-height {
-    height: 100%;
+  height: 100%;
 }
 
 .be-vietnam-pro-f-h {
-   font-family: $vietnam-pro;
+  font-family: $vietnam-pro;
 
-    font-weight: $weight7;
-    font-style: normal;
-    font-size: $p24;
-    line-height: $line48;
-    text-align: left;
+  font-weight: $weight7;
+  font-style: normal;
+  font-size: $p24;
+  line-height: $line48;
+  text-align: left;
+}
+
+.be-vietnam-pro-w {
+  font-family: $vietnam-pro;
+
+  font-weight: $weight5;
+  font-style: normal;
+  font-size: $p14;
+  line-height: $line16;
+  text-align: left;
+  color: $primary-color;
+}
+
+.two-col {
+  display: flex;
+}
+.card-body {
+  border-width: 0;
+  text-align: left;
+}
+.card-bg-f {
+  background-color: $secondary-color;
+}
+.outer-b {
+  background-color: $black;
+  width: 100%;
+
+  @include mdMaxBreakPoint {
+    margin: 0 0 20px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-height: 100%;
   }
 
-  .be-vietnam-pro-w {
-   font-family: $vietnam-pro;
-
-    font-weight: $weight5;
-    font-style: normal;
-    font-size: $p18;
-    line-height: $line16;
-    text-align: left;
-    color: $primary-color;
+  @include xxlMinBreakPoint {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
-  .two-col {
+  @include xxlMaxBreakPoint {
+    margin: 0 auto;
+  }
+  .footer-b {
     display: flex;
-
-  }
-  .card-body {
-    border-width: 0;
-    text-align: left;
-  }
-  .card-bg-f {
-    background-color: $secondary-color;
-  }
-  .outer-b {
-    background-color: $black;
+    flex-wrap: wrap;
     width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    column-gap: 16rem;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: $black;
+    text-align: left;
 
-    @include mdMaxBreakPoint {
-      margin: 0 0 20px 0;
-      padding-left: 20px;
-      padding-right: 20px;  
-      max-height: 100%;
-      }
-
-    @include xxlMinBreakPoint {
-      margin: 0 auto;
-      padding-left: 20px;
-      padding-right: 20px;  
-      }
-
-      @include xxlMaxBreakPoint {
-      margin: 0 auto;
-      }
-    .footer-b {
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
-      max-width: 1440px;
-      margin: 0 auto; 
-      justify-content: space-between;
-      column-gap: 16rem;
-      padding-top: 30px;
-      padding-bottom: 20px;
-      background-color: $black;
-      text-align: left;
-
-      .be-vietnam-pro-w {
-
+    .be-vietnam-pro-w {
       @include lgMaxBreakPoint {
         margin: 0 auto;
         padding-left: 20px;
-        padding-right: 20px;  
+        padding-right: 20px;
         padding-bottom: 20px;
         max-height: 100%;
-        font-size: 14px;      
-
-        }
+        font-size: 14px;
+      }
 
       @include xxlMinBreakPoint {
         margin: 0 auto;
         padding-left: 20px;
-        padding-right: 20px;  
+        padding-right: 20px;
         padding-bottom: 20px;
         text-align: left;
+      }
 
-        }
-
-        @include xxlMaxBreakPoint {
+      @include xxlMaxBreakPoint {
         text-align: left;
+      }
 
-        }
-
-        p {
-            color: $primary-color;
-        }
-    }  
-  }   
+      p {
+        color: $primary-color;
+      }
+    }
+  }
 }
 .footer-links-b {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 .wrap {
   text-overflow: ellipsis;
   white-space: wrap;
 }
-.footer-logo, .footer-icons {
+.footer-logo,
+.footer-icons {
   display: block;
 }
 .footer-icons {
@@ -169,5 +163,4 @@ h2 {
   display: block;
   height: 100px;
   background-repeat: no-repeat;
-
 }

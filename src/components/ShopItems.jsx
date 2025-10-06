@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import MyNav from './MyNav';
+import Header2 from './Header2';
 import { Link } from 'react-router-dom';
 import data from '../staticData/items.json';
 
@@ -10,7 +10,7 @@ function ShopItems() {
   return (
     <>
         <Header></Header>
-        <MyNav></MyNav>
+        <Header2></Header2>
         <h3>Shop Items</h3>
          <div>
           <h2> 

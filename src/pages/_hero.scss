@@ -89,12 +89,12 @@
     {
       text-align: left;
       color: $black;
+      margin: 4rem 0;
 
     @include mdMaxBreakPoint {
       width: 100%;
-      margin: 0 auto;
-      text-align: center;
-    
+      margin: 2rem auto;
+      text-align: center;    
       }
       @include xxlMaxBreakPoint {
       text-align: left;
@@ -122,6 +122,8 @@
   text-align: left;
   color: $black;
   font-family: $vietnam-pro;
+  line-height: 28px;
+  padding: 1rem 0;
 
   @include lgMaxBreakPoint {
     width: 100%;
@@ -139,6 +141,7 @@
 h4, p, .btn-h {
   font-family: $poppins;
   text-align: left;
+  
 
   @include lgMaxBreakPoint {
     width: 100%;
@@ -146,6 +149,9 @@ h4, p, .btn-h {
     text-align: center;
   
     }
+}
+.btn-h, a.btn-h {
+  color: white;
 }
 
 
